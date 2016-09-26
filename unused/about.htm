@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Socialife: Human Interaction Management</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+	</head>
+	<body>
+		<!-- navigation bar -->
+		<!--changing navbar-default to navbar-inverse will result in a dark navbar. -->
+		<div class="navbar navbar-default navbar-static-top">
+			<div class = "container">
+				<div class ="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.htm" class="navbar-brand lobster-font">Socialife</a>
+				</div>
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.htm">Home</a></li>
+						<li class="active"><a href="#">About</a></li>
+						<li><a href="#contact" data-toggle="modal">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Jumbotron -->
+		<div class = "row">
+			<div class = "jumbotron text-center">
+				<h1 class = "lobster-font">Socialife</h1>
+				<p>Human Interaction Management</p>
+			</div>
+		</div>
+		<!-- main content -->
+		<div class = "container">
+			<div class = "row text-center form-box about-margins">
+				<h2 class = "lobster-font">What is Socialife?</h2>
+				<h4>Socialife is a web application for managing your social interactions, not across a single platform, but across your entire life. <br>
+				There are myriad ways in modern times to interact with your friends, family, coworkers, acquaintances, and so on. But how do you manage these communication channels? When is the last time you spoke to that friend from high school, that coworker from your last job, your mother? Have any of your social connections slipped through the cracks? You have 800 friends on Facebook, but how many of them actually consider you a friend? <br>
+				Socialife's aim is to help you manage those interactions, be it an instant message, phone call, email, Facetime or face-to-face.<br>
+				Create a simple contact profile using the submission form. The form asks for only basic information: first and last name, type of acquaintance, and a tag or two describing positive and negative aspects or topics of your most recent conversation. Your contacts are displayed as a list, ordered by most recent interaction. Existing contacts can be updated as your daily life plays out. <br>
+				Currently your Socialife contacts can only be managed manually, but in the future this service could use social media platform APIs, or perhaps a mobile application with SMS and phone call permissions, to automatically update your contacts as interactions happen.<br>
+				</h4>
+			</div>
+		</div>
+		<!-- footer -->
+		<footer class="container-fluid bg-4 text-center">
+			<p class= "nevbar-text">&copy; 2016 Adam Hogan</p>
+		</footer>
+		<!-- "Contact" modal -->
+		<div class="modal fade" id="contact" role="dialog">
+			<div class="modal-dialog text-center">
+				<div class="modal-content">
+					<div class="modal-header lobster-font">
+						<h2>Contact</h2>
+					</div>
+					<div class="modal-body">
+						Adam Hogan<br>
+						<a href="mailto:adamthogan@gmail.com">adamthogan@gmail.com</a><br>
+						(314) 625-0689<br><br>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- note: may need to change following to https:// when live -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		
+		<!--this is throwing an error, using one below instead for time being
+		<script src="/js/bootstrap.js"></script> ﻿-->
+		<!-- pulled from bootstrap's site -->
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	</body>
+</html>
